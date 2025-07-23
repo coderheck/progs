@@ -1,0 +1,1 @@
+gpgconf --launch gpg-agent && gpg-connect-agent reloadagent /bye
