@@ -1,4 +1,4 @@
-# batch program to compile and run c++ code (to be used alongside my neovim config)
+:: batch program to compile and run c++ code (to be used alongside my neovim config)
 @echo off
 set ext=.cpp
 if %1.==. goto end

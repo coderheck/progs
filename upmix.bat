@@ -1,3 +1,5 @@
+:: batch script for using ffmpeg to upmix songs to 5.1 
+:: why did i write this
 @echo off
 set upmixstr=upmix_
 IF %1.==. goto noInput
