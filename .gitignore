@@ -38,10 +38,7 @@ rojo.exe
 *sql*
 srcexp.exe 
 unikeynt.exe 
-ytdlp.exe 
-ytdlp_m.exe 
-ytdlp_sabr.exe 
-ytthumb.exe 
+*ytdlp*
 *lib*
 imgui.ini 
 keymap.txt 
