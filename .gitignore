@@ -11,6 +11,8 @@ asciiimg.exe
 credits-cli.exe 
 *curl* 
 ffmpeg.exe 
+ffplay.exe 
+ffprobe.exe 
 flac.exe 
 foobar2000-catbox.exe 
 gallery-dl.exe 
@@ -36,7 +38,9 @@ rojo.exe
 *sql*
 srcexp.exe 
 unikeynt.exe 
-yt-dlp.exe 
+ytdlp.exe 
+ytdlp_m.exe 
+ytdlp_sabr.exe 
 ytthumb.exe 
 *lib*
 imgui.ini 

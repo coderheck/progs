@@ -5,7 +5,7 @@
 
 IF %1.==. GOTO end 
 
-yt-dlp -U -o "~/Music/temp/%%(title)s.%%(ext)s" --no-playlist --extract-audio --audio-format best %1
+ytdlp --update-to nightly -o "~/Music/temp/%%(title)s.%%(ext)s" --cookies-from-browser firefox --no-playlist --extract-audio --audio-format best %1
 
 start explorer.exe "%userprofile%\Music\temp\"
 

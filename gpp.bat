@@ -5,7 +5,7 @@ if %1.==. goto end
 goto compile
 
 :compile
-g++ -std=c++23 -Wall -DONLINE_JUDGE -O2 -lm -fmax-errors=5 -march=native -Wl,--stack,16777216 -s -o %1 %1%ext% && %1
+g++ -std=c++23 -Wall -DONLINE_JUDGE -O2 -lm -fmax-errors=5 -march=native -Wl,--stack,16777216 -s -o %1 %1%ext% -lstdc++exp && %1
 
 :end
 echo:
