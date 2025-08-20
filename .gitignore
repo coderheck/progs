@@ -21,6 +21,7 @@ gifsicle.exe
 gifski.exe 
 imgur-uploader.exe 
 jq.exe 
+*lame*
 luarocks.exe 
 luarocks-admin.exe 
 metaflac.exe 
@@ -42,4 +43,3 @@ unikeynt.exe
 *lib*
 imgui.ini 
 keymap.txt 
-
