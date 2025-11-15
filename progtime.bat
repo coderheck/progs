@@ -5,7 +5,7 @@
 set start=%time%
 
 :: run program
-cmd /c %*
+cmd /c "%*.exe"
 
 set end=%time%
 set options="tokens=1-4 delims=:.,"
