@@ -35,4 +35,4 @@ set "ms=%ms:~-3%"
 
 ::output 
 echo.
-echo execution time : %hours%:%mins%:%secs%.%ms% (%totalsecs%%ms%ms)
+echo [execution time : %hours%:%mins%:%secs%.%ms% (%totalsecs%%ms%ms)]
