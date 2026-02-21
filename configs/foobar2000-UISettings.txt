@@ -1,0 +1,2 @@
+window title: [%album artist% -][ "%album%":][ Disc %discnumber%][$if($strcmp(%tracknumber%,?),, #%tracknumber%[/%totaltracks%])] %title%[ '//' %track artist%]
+status bar: %codec%$ifequal($strcmp(%codec_profile%,?),1,, - %codec_profile%) | %bitrate% kbps | %samplerate% Hz | $if($info(bitspersample),$info(bitspersample) bit,non-PCM) | %channels% | %playback_time%[ / %length%]

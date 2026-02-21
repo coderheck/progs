@@ -1,4 +1,5 @@
-:: https://stackoverflow.com/a/6209392
+:: batch script to run and measure program runtime 
+:: source: https://stackoverflow.com/a/6209392
 
 @echo off
 @setlocal

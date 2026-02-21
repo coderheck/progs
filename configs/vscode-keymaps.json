@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+alt+b",
+    "command": "cph.runTestCases"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-cph.runTestCases"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "shift+alt+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+o",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "-revealFileInOS",
+    "when": "!editorFocus"
+  }
+]

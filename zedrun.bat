@@ -1,3 +1,6 @@
+:: Zed editor utility script to compile and run selected code files
+:: source: https://www.reddit.com/r/ZedEditor/comments/1cxpb9o/comment/ld8tfcc
+
 @echo off
 setlocal
 
