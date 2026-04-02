@@ -5,6 +5,10 @@ CompileFlags:
     - -DONLINE_JUDGE
     - -ferror-limit=0
     - -Wall
+    - -Wextra 
+    - -Wpedantic
+    - -Werror 
+    - -Winvalid-pch
     - -O2
     - -lm
     - -fmax-errors=5
