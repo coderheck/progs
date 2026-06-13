@@ -1,0 +1,30 @@
+﻿<root>
+    <service minimized="false" num_exec="1">
+        <label>view spectrum in spek</label>
+        <path>spek.exe "%_path%"</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>remove cover padding along with cover</label>
+        <path>"C:\Users\longnuub\Documents\progs\metaflac.exe" --remove --block-type=PICTURE,PADDING --dont-use-padding "%_path%"</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>remove only the cover padding</label>
+        <path>"C:\Users\longnuub\Documents\progs\metaflac.exe" --remove --block-type=PADDING --dont-use-padding "%_path%"</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>OpenAs...</label>
+        <path>rundll32.exe shell32.dll,OpenAs_RunDLL %_path%</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>go to $if3(%link%,%WWW%,%URL%,no links available)</label>
+        <path>"$if3(%link%,%WWW%,%URL%)"</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>%_path% "$substr(%_path%,0,$strrchr(%_path%,'\'))"</label>
+        <path>"$substr(%_path%,0,$strrchr(%_path%,'\'))"</path>
+    </service>
+    <service minimized="false" num_exec="1">
+        <label>Explore Directory</label>
+        <path>explorer /E,"$substr(%_path%,0,$strrchr(%_path%,'\'))"</path>
+    </service>
+</root>
