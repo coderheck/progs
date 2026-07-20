@@ -6,7 +6,7 @@
 set start=%time%
 
 :: run program
-cmd /c "%*.exe"
+cmd /c "%1"
 
 set end=%time%
 set options="tokens=1-4 delims=:.,"
@@ -26,7 +26,7 @@ if 1%ms% lss 100 set ms=0%ms%
 :: done
 set /a totalsecs = %hours%*3600 + %mins%*60 + %secs%
 
-:: padding, potentially troublesome part?
+:: padding
 set "mins=0%mins%" 
 set "mins=%mins:~-2%"
 set "secs=0%secs%"
@@ -34,6 +34,6 @@ set "secs=%secs:~-2%"
 set "ms=00%ms%"
 set "ms=%ms:~-3%"
 
-::output 
+:: output 
 echo.
 echo [execution time : %hours%:%mins%:%secs%.%ms% (%totalsecs%%ms%ms)]
