@@ -1,6 +1,6 @@
 :: batch program to compile and run c++ code (to be used alongside my neovim config)
 :: passing the source filename as the parameter `example.cpp`
-REM @echo off
+@echo off
 if %1.==. goto end
 goto compile
 
