@@ -4,8 +4,10 @@ if %1.==. goto end
 goto compile
 
 :compile
-g++ -std=c++23 -O2 -Wall -Wextra -Wl,--stack,16777216 "%1" -o "%~n1" -lwinmm && %1
-del "%~n1.exe"
+cd "%~dp1"
+g++ -std=c++23 -O2 -Wall -Wextra -Wl,--stack,16777216 "%1" -o "%~dpn1" -lwinmm
+call progtime "%~dpn1.exe"
+del "%~dpn1.exe"
 
 :end
 exit /b 0
