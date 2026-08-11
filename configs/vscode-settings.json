@@ -24,13 +24,12 @@
     "discord.detailsIdling": "doin' nothing",
     "discord.largeImageIdling": "high on meth",
     "editor.indentSize": "tabSize",
-    "editor.tabSize": 4,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
     "editor.fontSize": 13,
     "explorer.confirmPasteNative": false,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 100,
+    "files.autoSaveDelay": 1500,
     "doki.sticker.path": "C:/Users/longnuub/Pictures/cecilia_1.png",
     "doki.sticker.css": "z-index:100;background-position:100% 95%;background-size: 20vw",
     "doki.statusbar.name": "i love you aryanya",
@@ -38,7 +37,7 @@
     "doki.background.path": "C:/Users/longnuub/Pictures/baldi_terrified.jpg",
     "discord.lowerDetailsIdling": "mimimimimir",
     "discord.lowerDetailsNoWorkspaceFound": "wtf are you doing",
-    "discord.lowerDetailsEditing": "at line: {current_line} of {total_lines}",
+    "discord.lowerDetailsEditing": "in: {workspace}",
     "terminal.integrated.fontLigatures": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "smoothtype.duration": 40,
@@ -120,4 +119,12 @@
         "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
         "gleam": "gleam run -m $fileNameWithoutExt"
     },
+    "notebook.formatOnSave.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 4,
+        "editor.indentSize": 4,
+        "editor.insertSpaces": true
+    },
+    "discord.detailsEditing": "editing: {file_name} @ line {current_line}/{total_lines}",
 }
